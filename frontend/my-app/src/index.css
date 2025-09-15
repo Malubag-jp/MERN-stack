@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.liness {
+  display: -webkit-box;        /* Use flexbox-like layout for text */
+  -webkit-line-clamp: 3;       /* Number of lines to show */
+  -webkit-box-orient: vertical;/* Vertical orientation */
+  overflow: hidden;            /* Hide extra text */
+}
+
+
+  .radial-bg {
+    background: radial-gradient(125% 125% at 50% 10%, #000 60%, #00FF9D40 100%);
+  }
+.backs {
+  background: #2A303C;
+}  
+  
